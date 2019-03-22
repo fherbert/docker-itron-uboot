@@ -1,0 +1,6 @@
+#build the container
+docker build . -t u-boot
+
+# running this container
+docker run -i -t u-boot /bin/bash
+
