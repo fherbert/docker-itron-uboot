@@ -1,3 +1,9 @@
+This container builds the uboot image required for ITRON HAB01
+
+The build uboot image is available on the container at
+
+/home/itron/u-boot/u-boot.bin
+
 #build the container
 docker build . -t u-boot
 
