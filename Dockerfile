@@ -1,4 +1,4 @@
-FROM deb_build_base:latest
+FROM --platform=linux/amd64 deb_build_base:latest
 
 ARG gcc_ver=8.1.0
 
